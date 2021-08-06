@@ -1,0 +1,17 @@
+{
+  "name": "test-vite-svelte",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@cdellacqua/svelte-vite-double-import-lib": "^1.0.1",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
+    "svelte": "^3.37.0",
+    "vite": "^2.4.4"
+  }
+}
