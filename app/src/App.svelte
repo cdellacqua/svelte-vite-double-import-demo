@@ -1,5 +1,6 @@
 <script>
-	import { Component } from "@cdellacqua/svelte-vite-double-import-lib";
+	import { Component, something } from "@cdellacqua/svelte-vite-double-import-lib";
+	console.log(something);
 </script>
 
 <Component />
